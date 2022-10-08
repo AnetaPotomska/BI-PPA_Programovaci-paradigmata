@@ -1,1 +1,1 @@
-(λxysz.xs(s(s(xs(s(s(ysz)))))))
+(λ x y s z . x s ( s ( s ( x s ( s ( s ( y s z )))))))

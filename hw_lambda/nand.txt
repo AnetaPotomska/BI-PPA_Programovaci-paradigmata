@@ -1,1 +1,1 @@
-(λxy.x(y(λtf.f)(λtf.t))(λtf.t))
+(λ x y . x ( y ( λ t f . f ) ( λ t f . t ))( λ t f . t ))
