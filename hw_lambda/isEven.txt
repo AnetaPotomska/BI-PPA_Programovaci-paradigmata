@@ -1,1 +1,1 @@
-(λ f n . n (λ t f . f) (λ x t f . x f t) (λ t f . f) (λ t f . t) ( - n 1 (λ t f . f) (λ x t f . x f t) (λ t f . f) (λ t f . f) ( f ( - n 2 ))))
+(λ f . ( λ x . f ( x x )) ( λ x . f ( x x ))) (λ f n . n (λ t f . f) (λ x t f . x f t) (λ t f . f) (λ t f . t) ( - n 1 (λ t f . f) (λ x t f . x f t) (λ t f . f) (λ t f . f) ( f ( - n 2 ))))
