@@ -1,1 +1,0 @@
-(λ r n m . (λ a b . a b a ) ( ZERO n )( ZERO m ) 1 (( ZERO n ) ( + m ( r ( 0 ( - m 1 )))) (( ZERO m ) ( + n ( r (( - n 1 ) 0 ))) (+ ( r ( n ( - m 1 ))) ( r (( - n 1 ) m ))))))

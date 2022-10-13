@@ -1,0 +1,12 @@
+(
+λ f n m . ( (λ a b . a b a ) (ZERO n) ( ZERO m)) 1 
+	(
+	ZERO n (+ m (f(- m 1) 0)) 
+		(
+		ZERO m (+ n (f 0 (- n 1))) 
+			(
+			+ (f((- m 1) n)) (f(m (- n 1)))
+			)
+		)
+	)
+) 
