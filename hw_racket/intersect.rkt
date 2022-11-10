@@ -27,7 +27,7 @@
 ;rozpul seznam konečná
 (define (my-halves-final lst n)
   (if (<= n 0)
-      (cons (null (cons lst null))) ; list není povolený
+      (cons null (cons lst null)); list není povolený
         (let ([subresult (my-halves-final (cdr lst) (- n 1))])
            (cons (cons (car lst) (car subresult)) (cdr subresult)))))
 ;merge sort
