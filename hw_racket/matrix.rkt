@@ -45,11 +45,7 @@
         [(null? b) res]
          [else (my-sum (cdr a) (cdr b) (+ (* (car a) (car b)) res))]))
 
-
-(assert-equal (matrix-mul '( (1 2 3) (4 1 1)) '( (1 2) (3 4) (2 1) ) ) '( (13 13) (9 13) ))
-(assert-equal (matrix-mul '( (1 2 3) ) '( (1) (2) (3) ) ) '( ( 14 ) ))
-
-       
+    
 ;(1 2 3)
 ;(4 1 1)
 
