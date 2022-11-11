@@ -25,7 +25,7 @@
       (+ 1 (my-len (cdr a)))))
 ;finální pro transpozici
 (define (my-tr-final a len pos res)
-  (cond [(equal? len pos) res]
+  (cond [(equal? len pos) (my-transpose res)]
         [else (my-tr-final a len (+ pos 1) (cons (my-col a pos) res))]))
 ;n-tý prvek
 (define (my-nth a pos)
@@ -44,8 +44,12 @@
   (cond [(null? a) res]
         [(null? b) res]
          [else (my-sum (cdr a) (cdr b) (+ (* (car a) (car b)) res))]))
-         
-         
+
+
+(assert-equal (matrix-mul '( (1 2 3) (4 1 1)) '( (1 2) (3 4) (2 1) ) ) '( (13 13) (9 13) ))
+(assert-equal (matrix-mul '( (1 2 3) ) '( (1) (2) (3) ) ) '( ( 14 ) ))
+
+       
 ;(1 2 3)
 ;(4 1 1)
 
