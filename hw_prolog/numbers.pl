@@ -2,7 +2,7 @@
 % numbers(+Lst, +Target).
 numbers(L, R) :- member(R, L), !. 
 numbers(L, R) :- not(member(R, L)), fail.
-numbers([H], R) :- fail.
+numbers([_], _) :- fail.
 numbers(L, R) :- 
     get_pair(L, X, Y),
     M is X + Y,
