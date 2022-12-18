@@ -40,7 +40,7 @@ Aplikace se spouští pomocí příkazu (get-solution *zde-vaše-vstupní-sudoku
 			(0 0 6 0 0 5 0 8 9)\
 			(5 0 8 0 4 6 1 0 3)\
 			(0 0 0 0 0 0 2 4 0)\
-			(0 3 0 0 1 2 0 0 0)))\
+			(0 3 0 0 1 2 0 0 0)))
   * aplikace vrátí:\
 	+-----------------+\
 	| 691 | 254 | 837 |\
@@ -54,7 +54,7 @@ Aplikace se spouští pomocí příkazu (get-solution *zde-vaše-vstupní-sudoku
 	| 528 | 946 | 173 |\
 	| 169 | 573 | 248 |\
 	| 437 | 812 | 596 |\
-	+-----------------+\
+	+-----------------+
 2. pro:\
 	(get-solution '((1 1 1 1 1 1 1 1 1)\
 		        (1 1 1 1 1 1 1 1 1)\
@@ -64,9 +64,9 @@ Aplikace se spouští pomocí příkazu (get-solution *zde-vaše-vstupní-sudoku
 		        (1 1 1 1 1 1 1 1 1)\
 		        (1 1 1 1 1 1 1 1 1)\
 		        (1 1 1 1 1 1 1 1 1)\
-		        (1 1 1 1 1 1 1 1 1)))\
+		        (1 1 1 1 1 1 1 1 1)))
   * aplikace vrátí:\
-  	Entered sudoku has duplicates in it, so it cannot be solved.-1\
+  	Entered sudoku has duplicates in it, so it cannot be solved.-1
 3. pro:\
 	(get-solution '((0 7 0 3 0 1 4 0 0)\
 		        (0 0 4 0 8 0 0 6 2)\
@@ -75,6 +75,6 @@ Aplikace se spouští pomocí příkazu (get-solution *zde-vaše-vstupní-sudoku
 		        (7 0 0 0 6 0 0 8 0)\
 		        (0 9 0 4 0 3 5 0 0)\
 		        (8 0 0 2 0 0 6 0 0)\
-		        (0 0 1 0 0 6 0 4 0)))\
+		        (0 0 1 0 0 6 0 4 0)))
   * aplikace vrátí:\
   	Entered sudoku isn't 9x9, so it cannot be solved.-2
