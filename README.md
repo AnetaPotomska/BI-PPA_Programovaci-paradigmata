@@ -17,10 +17,10 @@ Funkční řešení splňující minimální požadavky bude hodnoceno v rozmez�
 ## Vlastnosti aplikace
 * napsaná v racketu
 * samotná aplikace se nachází v souboru [sudoku.rkt](sudoku.rkt)
-* umí zpracovat jen sudoku o velikosti 9x9
+* umí zpracovat sudoku o velikosti n^2 * n^2  
 * umí zkontrolovat vstupní sudoku
-  * zkontroluje zda je skutečně 9x9
-  * zkontroluje zda nejsou v sudoku žádné duplikáty
+  * zkontroluje zda je skutečně n^2 * n^2
+  * zkontroluje zda nejsou v sudoku žádné duplikáty ani čísla mimo rozsah <0; n^2>
 * pokud je vstupní sudoku v pořádku najde všechna jeho řešení
 * umí vypsat řešení v hezkém formátu
 * každá funkce je v kódu v krátkosti popsaná
@@ -66,7 +66,7 @@ Aplikace se spouští pomocí příkazu (get-solution *zde-vaše-vstupní-sudoku
 		        (1 1 1 1 1 1 1 1 1)\
 		        (1 1 1 1 1 1 1 1 1)))
   * aplikace vrátí:\
-  	Entered sudoku has duplicates in it, so it cannot be solved.-1
+  	Entered sudoku has mistakes in it, so it cannot be solved.-1
 3. pro:\
 	(get-solution '((0 7 0 3 0 1 4 0 0)\
 		        (0 0 4 0 8 0 0 6 2)\
@@ -77,4 +77,4 @@ Aplikace se spouští pomocí příkazu (get-solution *zde-vaše-vstupní-sudoku
 		        (8 0 0 2 0 0 6 0 0)\
 		        (0 0 1 0 0 6 0 4 0)))
   * aplikace vrátí:\
-  	Entered sudoku isn't 9x9, so it cannot be solved.-2
+  	Entered sudoku isn't n^2 * n^2, so it cannot be solved.-2
