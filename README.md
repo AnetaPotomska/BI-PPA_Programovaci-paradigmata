@@ -78,3 +78,7 @@ Aplikace se spouští pomocí příkazu (get-solution *zde-vaše-vstupní-sudoku
 		        (0 0 1 0 0 6 0 4 0)))
   * aplikace vrátí:\
   	Entered sudoku isn't n^2 * n^2, so it cannot be solved.-2
+    
+# Homework assignments
+
+Ve složkách hw_* se nachází vypracované úlohy do předmětu BI-PPA. Konkrétně napsané v lamba calculu, racketu a prologu.
