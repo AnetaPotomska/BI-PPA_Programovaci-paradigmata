@@ -1,0 +1,1 @@
+(λ p . AND ( AND ((λ a b . a T ( b F T ) ( a F T T b ) F) ( p T T ) T ) ((λ a b . a T ( b F T ) ( a F T T b ) F) ( p T F ) F)) (AND ((λ a b . a T ( b F T ) ( a F T T b ) F) ( p F T ) F) ((λ a b . a T ( b F T ) ( a F T T b ) F) ( p F F ) F)))

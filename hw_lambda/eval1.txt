@@ -1,0 +1,4 @@
+(λ x y y . x ( x y y ) x) ( y x ) ( x x )
+(λ x y2 y1 . x ( x y1 y1 ) x) ( y x ) ( x x )
+(λ y2 y1 . ( y x ) ( ( y x ) y1 y1 ) ( y x )) ( x x )
+(λ y1 . ( y x ) ( ( y x ) y1 y1 ) ( y x ))
